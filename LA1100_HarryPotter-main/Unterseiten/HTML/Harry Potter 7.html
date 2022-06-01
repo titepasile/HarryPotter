@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/Unterseiten/CSS/Harry Potter 7.css" />
+        <title>HP und die Heiligtümer des Todes Teil 1</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="headerNav">
+                <div class="list">
+                    <button class="links">Teil 1</button>
+                    <button class="links">Teil 2</button>
+                    <button class="links">Teil 3</button>
+                    <button class="links">Teil 4</button>
+                    <button class="links">Teil 5</button>
+                    <button class="links">Teil 6</button>
+                    <button class="links">Teil 7</button>
+                    <button class="links selectetPage">Teil 8</button>
+                </div>
+                <button class="click links">...</button>
+            </nav>
+            <script>
+                let click = document.querySelector(".click");
+                let list = document.querySelector(".list");
+                click.addEventListener("click", () => {
+                    list.classList.toggle("newlist");
+                });
+            </script>
+
+            <main class="mainContent">
+                <h1>Harry Potter und die Heiligtümer des Todes Teil 1</h1>
+                <section>
+                    orem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining
+                    essentially unchanged. It was popularised in the 1960s with
+                    the release of Letraset sheets containing Lorem Ipsum
+                    passages, and more recently with desktop publishing software
+                    like Aldus PageMaker including versions of Lorem Ipsum
+                </section>
+                <h2>Trailer:</h2>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/KVC1E5KCTP8"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="harryTrailer7"
+                ></iframe>
+            </main>
+
+            <footer></footer>
+        </div>
+    </body>
+</html>
