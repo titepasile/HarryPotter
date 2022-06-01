@@ -10,28 +10,25 @@
     <body>
         <div class="container">
             <nav class="headerNav">
-                <div class="list">
-                    <button class="links">Teil 1</button>
-                    <button class="links">Teil 2</button>
-                    <button class="links">Teil 3</button>
-                    <button class="links">Teil 4</button>
-                    <button class="links">Teil 5</button>
-                    <button class="links">Teil 6</button>
-                    <button class="links">Teil 7</button>
-                    <button class="links selectetPage">Teil 8</button>
-                </div>
-                <button class="click links">...</button>
+                <button class="links">Teil 1</button>
+                <button class="links">Teil 2</button>
+                <button class="links">Teil 3</button>
+                <button class="links">Teil 4</button>
+                <button class="links">Teil 5</button>
+                <button class="links">Teil 6</button>
+                <button class="links">Teil 7</button>
+                <button class="links selectetPage">Teil 8</button>
             </nav>
-            <script>
-                let click = document.querySelector(".click");
-                let list = document.querySelector(".list");
-                click.addEventListener("click", () => {
-                    list.classList.toggle("newlist");
-                });
-            </script>
 
             <main class="mainContent">
-                <h1>Harry Potter und die Heiligtümer des Todes Teil 1</h1>
+                <h1 class="TittleSpacing">
+                    Harry Potter und die Heiligtümer des Todes Teil 1
+                </h1>
+                <img
+                    src="/Unterseiten/src/Harry Potter 7/HarryRonHermione.jpg"
+                    alt="HarryRonHermione"
+                    class="HermRonHarPicture"
+                />
                 <section>
                     orem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -44,7 +41,7 @@
                     passages, and more recently with desktop publishing software
                     like Aldus PageMaker including versions of Lorem Ipsum
                 </section>
-                <h2>Trailer:</h2>
+                <h2 class="TittleSpacing">Trailer:</h2>
                 <iframe
                     width="560"
                     height="315"

@@ -37,7 +37,7 @@ body{
 }
 
 .links{
-    min-width: 20%;
+    min-width: 25%;
     height: 1.5rem;
     background-color: rgb(37, 73, 0);
 }
@@ -48,12 +48,25 @@ body{
 
 .mainContent{
     background-color: burlywood;
+    color: white;
+    background-image: url("/Unterseiten/src/Harry Potter 7/HeiligtümerDesTodes.jpg");
+    
 
     display: flex;
     flex-direction: column;
     padding: 1rem;
 }
 
+.TittleSpacing{
+    margin: 2rem 0;
+}
+
 .harryTrailer7{
     width: 95%;
+}
+
+@media screen and (min-width: 500px){
+    .HermRonHarPicture{
+        width: 50%;
+    }
 }
