@@ -1,0 +1,66 @@
+@media (max-width: 600px) {
+    .container {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows:220px 270px 800px 150px;
+        grid-template-areas:     "header header"
+                                 "nav nav"
+						         "main main"
+                                 "aside aside"
+                                 "footer footer";
+        min-height: 100vh;
+    }
+
+    head{
+        grid-area: header
+    }
+
+    nav{
+        grid-area:nav;
+
+    }
+
+    .click{
+        background-color: #f85f73;
+    }
+
+    .click:hover {
+        background-color: #B71C1C;
+    }
+
+    .click,.links {
+        padding: 12px;
+        font-size: 1.2em;
+        border: none;
+        outline: none;
+        width:200px;
+        color:#fff;
+        transition: 0.3s;
+
+    }
+
+    .list {
+        position: absolute;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: 0.3s;
+    }
+
+    .newlist {
+        transform: scaleY(1);
+    }
+
+    .links {
+        background-color: #283c63;
+    }
+
+    .links:hover {
+        background-color: #01579B;
+        transform: scale(1.1);
+    }
+
+    main{
+        grid-area: main;
+        background-color: midnightblue;
+    }
+}
