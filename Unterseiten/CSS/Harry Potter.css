@@ -1,0 +1,448 @@
+html body{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 98%;
+    height: 100%;
+    margin: 5px;
+}
+.navTeil1 {
+    grid-area: nav;
+    background-color: rgb(189, 179, 107);;
+}
+.navTeil2 {
+    grid-area: nav; 
+    background-color: rgb(97, 87, 86);
+}
+.navTeil3 {
+    grid-area: nav;
+    background-color: rgb(143, 183, 185);
+}
+.navTeil4 {
+    grid-area: nav;
+    background-color: rgb(129, 138, 180);
+}
+.navTeil5 {
+    grid-area: nav;
+    background-color: rgb(76, 105, 145);
+}
+.navTeil6 {
+    grid-area: nav;
+    background-color: rgb(102, 89, 86);
+}
+.navTeil7 {
+    grid-area: nav;
+    background-color: rgb(190, 159, 108);
+}
+.navTeil8 {
+    grid-area: nav;
+    background-color: rgb(91, 91, 90);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.nav-list a, .nav-list a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-list li:hover::after {
+    width: 100%;
+}
+.bodyTeil1{
+    background-color: rgb(189, 179, 107);
+}
+.bodyTeil2{
+    background-color: rgb(97, 87, 86);
+}
+.bodyTeil3{
+    background-color: rgb(143, 183, 185);
+}
+.bodyTeil4{
+    background-color: rgb(129, 138, 180);
+}
+.bodyTeil5{
+    background-color: rgb(76, 105, 145);
+}
+.bodyTeil6{
+    background-color: rgb(102, 89, 86);
+}
+.bodyTeil7{
+    background-color: rgb(190, 159, 108);
+}
+.bodyTeil8{
+    background-color: rgb(91, 91, 90);
+}
+/*--------------------------------------------------------------------------------------------------------*/
+.parallax1Teil1{
+    /* The image used */
+    background-image: url("/Bilder/Teil1/HarryHedwig.jpg");
+    min-height: 40rem;
+    
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.parallax1Teil2{
+    /* The image used */
+    background-image: url("/Bilder/Teil2/HermineKessel.jpg");
+    min-height: 40rem;
+  
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.parallax1Teil3 {
+    /* The image used */
+    background-image: url("/Bilder/Teil3/HaaryPotterHypogreif.jpg");
+    min-height: 40rem;
+    
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.parallax1Teil4{
+    /* The image used */
+    background-image: url("/Bilder/Teil4/DumbledorFeuerkelch.jpg");
+    min-height: 40rem;
+  
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.parallax1Teil5{
+    /* The image used */
+    background-image: url("/Bilder/Teil5/LunaPatronus.jpg");
+    min-height: 40rem;
+  
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.parallax1Teil6{
+    /* The image used */
+    background-image: url("/Bilder/Teil6/GinnyHarry.png");
+    min-height: 40rem;
+  
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.parallax1Teil7{
+    /* The image used */
+    background-image: url("/Bilder/Teil7/HarryRon.jpg");
+    min-height: 40rem;
+  
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.parallax1Teil8{
+    /* The image used */
+    background-image: url("/Bilder/Teil8/HarryRot.jpg");
+    min-height: 40rem;
+  
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.maincontainer{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    color: black;
+    width: auto;
+    height: auto;
+    margin: 0.5rem;
+}
+.title{
+    display: flex;
+    box-sizing: border-box;
+    font-size: 2rem;
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    text-align: center;
+}
+.summary{
+    display: flex;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    text-align: justify;
+}
+.parallax2Teil1{
+    /* The image used */
+    background-image: url("/Bilder/Teil1/HermineRonHarry.jpg");
+    min-height: 40rem;
+  
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.parallax2Teil2{
+    /* The image used */
+    background-image: url("/Bilder/Teil2/RonHarryZauberstab.jpg");
+    min-height: 40rem;
+  
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.parallax2Teil3{
+    /* The image used */
+    background-image: url("/Bilder/Teil3/HarryRon.jpg");
+    min-height: 40rem;
+  
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.parallax2Teil4{
+    /* The image used */
+    background-image: url("/Bilder/Teil4/Drache.jpg");
+    min-height: 40rem;
+  
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.parallax2Teil5{
+    /* The image used */
+    background-image: url("/Bilder/Teil5/SeriousHarry.jpg");
+    min-height: 40rem;
+  
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.parallax2Teil6{
+    /* The image used */
+    background-image: url("/Bilder/Teil6/Quiditch.png");
+    min-height: 40rem;
+  
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.parallax2Teil7{
+    /* The image used */
+    background-image: url("/Bilder/Teil7/Hermine.jpg");
+    min-height: 40rem;
+  
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.parallax2Teil8{
+    /* The image used */
+    background-image: url("/Bilder/Teil8/VoldemortGrün.jpg");
+    min-height: 40rem;
+  
+    /* Full height */
+    height: 40rem;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0.5rem;
+}
+.asidecontainer{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+.trailertitle{
+    display: flex;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    margin: 0.5rem;
+}
+/* .trailer{} */
+@media only screen and (max-device-width: 960px) {
+    .parallax {
+      background-attachment: scroll;
+      min-height: 20rem;
+    }
+    .parallax2 {
+      background-attachment: scroll;
+      min-height: 20rem;
+    }
+}
