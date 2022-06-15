@@ -169,7 +169,7 @@ h2{
 /*--------------------------------------------------------------------------------------------------------*/
 .parallax1Teil1{
     /* The image used */
-    background-image: url("Bilder/Teil1/HarryHedwig.jpg");
+    background-image: url("/Bilder/Teil1/HarryHedwig.jpg");
     min-height: 40rem;
     
     /* Full height */
@@ -189,7 +189,7 @@ h2{
 
 .parallax1Teil2{
     /* The image used */
-    background-image: url("Bilder/Teil2/HermineKessel.jpg");
+    background-image: url("/Bilder/Teil2/HermineKessel.jpg");
     min-height: 40rem;
   
     /* Full height */
@@ -208,7 +208,7 @@ h2{
 }
 .parallax1Teil3 {
     /* The image used */
-    background-image: url("Bilder/Teil3/HaaryPotterHypogreif.jpg");
+    background-image: url("/Bilder/Teil3/HaaryPotterHypogreif.jpg");
     min-height: 40rem;
     
     /* Full height */
@@ -227,7 +227,7 @@ h2{
 }
 .parallax1Teil4{
     /* The image used */
-    background-image: url("Bilder/Teil4/DumbledorFeuerkelch.jpg");
+    background-image: url("/Bilder/Teil4/DumbledorFeuerkelch.jpg");
     min-height: 40rem;
   
     /* Full height */
@@ -246,7 +246,7 @@ h2{
 }
 .parallax1Teil5{
     /* The image used */
-    background-image: url("Bilder/Teil5/LunaPatronus.jpg");
+    background-image: url("/Bilder/Teil5/LunaPatronus.jpg");
     min-height: 40rem;
   
     /* Full height */
@@ -265,7 +265,7 @@ h2{
 }
 .parallax1Teil6{
     /* The image used */
-    background-image: url("Bilder/Teil6/GinnyHarry.png");
+    background-image: url("/Bilder/Teil6/GinnyHarry.png");
     min-height: 40rem;
   
     /* Full height */
@@ -284,7 +284,7 @@ h2{
 }
 .parallax1Teil7{
     /* The image used */
-    background-image: url("Bilder/Teil7/HarryRon.jpg");
+    background-image: url("/Bilder/Teil7/HarryRon.jpg");
     min-height: 40rem;
   
     /* Full height */
@@ -303,7 +303,7 @@ h2{
 }
 .parallax1Teil8{
     /* The image used */
-    background-image: url("Bilder/Teil8/HarryRot.jpg");
+    background-image: url("/Bilder/Teil8/HarryRot.jpg");
     min-height: 40rem;
   
     /* Full height */
@@ -349,7 +349,7 @@ h2{
 }
 .parallax2Teil1{
     /* The image used */
-    background-image: url("Bilder/Teil1/HermineRonHarry.jpg");
+    background-image: url("/Bilder/Teil1/HermineRonHarry.jpg");
     min-height: 40rem;
   
     /* Full height */
@@ -368,7 +368,7 @@ h2{
 }
 .parallax2Teil2{
     /* The image used */
-    background-image: url("Bilder/Teil2/RonHarryZauberstab.jpg");
+    background-image: url("/Bilder/Teil2/RonHarryZauberstab.jpg");
     min-height: 40rem;
   
     /* Full height */
@@ -387,7 +387,7 @@ h2{
 }
 .parallax2Teil3{
     /* The image used */
-    background-image: url("Bilder/Teil3/HarryRon.jpg");
+    background-image: url("/Bilder/Teil3/HarryRon.jpg");
     min-height: 40rem;
   
     /* Full height */
@@ -406,7 +406,7 @@ h2{
 }
 .parallax2Teil4{
     /* The image used */
-    background-image: url("Bilder/Teil4/Drache.jpg");
+    background-image: url("/Bilder/Teil4/Drache.jpg");
     min-height: 40rem;
   
     /* Full height */
@@ -425,7 +425,7 @@ h2{
 }
 .parallax2Teil5{
     /* The image used */
-    background-image: url("Bilder/Teil5/SeriousHarry.jpg");
+    background-image: url("/Bilder/Teil5/SeriousHarry.jpg");
     min-height: 40rem;
   
     /* Full height */
@@ -444,7 +444,7 @@ h2{
 }
 .parallax2Teil6{
     /* The image used */
-    background-image: url("Bilder/Teil6/Quiditch.png");
+    background-image: url("/Bilder/Teil6/Quiditch.png");
     min-height: 40rem;
   
     /* Full height */
@@ -463,7 +463,7 @@ h2{
 }
 .parallax2Teil7{
     /* The image used */
-    background-image: url("Bilder/Teil7/Hermine.jpg");
+    background-image: url("/Bilder/Teil7/Hermine.jpg");
     min-height: 40rem;
   
     /* Full height */
@@ -482,7 +482,7 @@ h2{
 }
 .parallax2Teil8{
     /* The image used */
-    background-image: url("Bilder/Teil8/VoldemortGrün.jpg");
+    background-image: url("/Bilder/Teil8/VoldemortGrün.jpg");
     min-height: 40rem;
   
     /* Full height */
