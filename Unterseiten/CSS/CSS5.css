@@ -1,63 +1,74 @@
 @import url('http://fonts.cdnfonts.com/css/harry-p');
-* {
-    margin: 0;
-  }
-  html {
-    font-size: 62.5%;
-  }
-  body{
-    background-color: #4d7840;
-  }
-  
-  p{
-      font-size: 2rem;
-      margin-right:10rem ;
-  }
-  div > header{
-  }
-  header{
-    display: grid;
-    grid-template-columns: 10% 80% 10%;
-      background-color: #203616;
-      height: 7rem;
-      text-align: center;
-  }
-  nav ul li{
-    margin-right: 0.5rem;
-    margin-top: -0.2rem;
-  }
-  nav ul li a{
-    display: block;
-  }
-  nav ul li ul{
-    display: none;
-    list-style: none;
-    background-color: #112c05;
-    border-radius:0 0 1.2rem 1.2rem ;
-  }
- nav ul li:hover ul{
-    display: block;
-    
-  }
-  nav ul li ul li a{
-    color: #526e36;
-    text-decoration: none;
-    margin-left: -3rem;
-    padding: 1rem;
-    font-size: 2rem;
 
-  }
-  nav ul li ul li a:hover{
-background-color: #203616;
-  }
-  #menü-img{
-    height: 7rem;
-    width: 8rem;
-  }
-main{
-    text-align: justify;
-    margin: 4rem 15rem 1rem 5rem;
+* {
+  margin: 0;
 }
-.video{
-    margin-top: 2rem;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #4d7840;
+}
+
+p {
+  font-size: 2rem;
+  margin-right: 10rem;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  background-color: #203616;
+  height: 7rem;
+  text-align: center;
+}
+
+nav ul li {
+  margin-right: 0.5rem;
+  margin-top: -0.2rem;
+}
+
+nav ul li a {
+  display: block;
+}
+
+nav ul li ul {
+  display: none;
+  list-style: none;
+  background-color: #112c05;
+  border-radius: 0 0 1.2rem 1.2rem;
+}
+
+nav ul li:hover ul {
+  display: block;
+
+}
+
+nav ul li ul li a {
+  color: #526e36;
+  text-decoration: none;
+  margin-left: -3rem;
+  padding: 1rem;
+  font-size: 2rem;
+
+}
+
+nav ul li ul li a:hover {
+  background-color: #203616;
+}
+
+#menü-img {
+  height: 7rem;
+  width: 8rem;
+}
+
+main {
+  text-align: justify;
+  margin: 4rem 15rem 1rem 5rem;
+}
+
+.video {
+  margin-top: 2rem;
 }
