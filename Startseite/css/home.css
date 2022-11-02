@@ -7,7 +7,7 @@
     background: transparent;
 }
 
-:root{
+:root {
     --darkcolor1: #260108;
     --darkcolor2: #590219;
     --lightcolor1: #f2b56b;
@@ -15,7 +15,7 @@
     --lightcolor3: #f29d52;
 }
 
-body{
+body {
     width: 100%;
 
     font-size: 1.25rem;
@@ -23,32 +23,34 @@ body{
     background-color: var(--lightcolor1);
 }
 
-.header{
+.header {
     display: flex;
     flex-direction: column;
 
     background-color: var(--darkcolor2);
 }
 
-.HeaderLogo{
+.HeaderLogo {
     height: 9rem;
     text-align: center;
     color: var(--lightcolor3);
 }
-.logo{
+
+.logo {
+    align-items: center;
     height: 8rem;
     margin: 1rem;
 }
 
-.parallax{
+.parallax {
     /* The image used */
-    background-image: url("Startseite/img/Main2.jpg");
+    background-image: url("/Startseite/img/Main2.jpg");
     min-height: 40rem;
-    
+
     /* Full height */
     height: 40rem;
     width: 100%;
-    
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -60,7 +62,7 @@ body{
     top: 0.5rem;
 }
 
-.mainInfo{
+.mainInfo {
     display: flex;
     flex-direction: column;
     color: var(--lightcolor3);
@@ -68,7 +70,7 @@ body{
     margin: 5%;
 }
 
-.mainInfoButton{
+.mainInfoButton {
     margin: 1rem 0 0 0;
     padding: 0.5rem;
     border-radius: 0.5rem;
@@ -80,24 +82,24 @@ body{
     background-color: var(--lightcolor2);
 }
 
-.mainContent{
+.mainContent {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.movieLink{
+.movieLink {
     width: 80%;
     height: fit-content;
     margin: 1rem 0;
 }
 
-.moviePicture{
+.moviePicture {
     width: 100%;
     border: 0.4rem solid black;
 }
 
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
 
@@ -108,13 +110,13 @@ body{
     background-color: var(--darkcolor1);
 }
 
-.footerLink{
+.footerLink {
     color: var(--lightcolor3);
     size: 1.25rem;
 }
 
 @media screen and (min-width: 500px) {
-    .mainInfo{
+    .mainInfo {
         flex-direction: row-reverse;
     }
 
@@ -123,25 +125,25 @@ body{
         height: 50%;
     }*/
 
-    .mainContent{
+    .mainContent {
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
     }
 
-    .movieLink{
+    .movieLink {
         min-width: 25rem;
         width: 28%;
         margin: 2rem;
     }
 
-    .moviePicture{
+    .moviePicture {
         min-width: 25rem;
         width: 28%;
         margin: 2rem;
     }
 
-    .footer{
+    .footer {
         flex-direction: row;
         justify-content: space-evenly;
     }
